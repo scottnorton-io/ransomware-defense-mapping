@@ -1,5 +1,7 @@
 # Modeling Ransomware Defense with ATT&CK, D3FEND, and Platform0-style Testing
 
+> Reference implementation: https://github.com/scottnorton-io/ransomware-defense-mapping
+
 ## 1. Introduction: From ATT&CK Diagrams to Tested Ransomware Defenses
 
 Most teams now recognize ransomware as a top-tier risk and can point to a slide or wiki page showing a **MITRE ATT&CK kill chain**. In practice, though, those diagrams often stop at the "what attackers do" layer. They do not tell you, per environment, whether concrete defenses are deployed and actually tested.
@@ -115,6 +117,14 @@ This becomes `AttackToD3fendMapping` in code. The mapping is intentionally coars
 
 These are modeled as `Control`, `EnvControlState`, and a convenience wrapper `ControlWithState`. Together they allow the resolver to compute a simple per-technique `TechniqueCoverage` structure that powers the CLI.
 
+```mermaid
+flowchart LR
+  A[ATT&CK Technique] --> B[D3FEND Technique]
+  B --> C[Control Catalog Entry]
+  C --> D[Platform0-style Test Job]
+  D --> E[Evidence + Coverage Score]
+```
+  
 ---
 
 ## 4. Example Ransomware Kill Chain Walkthrough
@@ -365,3 +375,9 @@ To adapt this pattern for your own use:
 4. Integrate Platform0-style jobs or equivalent automation so that coverage scores are driven by **fresh evidence**, not manual guesses.
 
 From there, you can decide how far to take it: keep it as an internal lab tool, bake it into your QSA preparation process, or evolve it into a richer ransomware readiness dashboard tailored to your practice.
+
+---
+
+## About this reference
+
+This article accompanies the `ransomware-defense-mapping` reference repository and was used as the basis for continuing professional education (CPE) credit under the “technical information security” category.

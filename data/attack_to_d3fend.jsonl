@@ -1,0 +1,7 @@
+{"attack_id": "T1078", "d3fend_id": "D3-AUTH-0001", "justification": "MFA reduces the impact of stolen or guessed credentials for initial access."}
+{"attack_id": "T1078", "d3fend_id": "D3-LOG-0001", "justification": "Centralized authentication logging supports detection of abnormal logins using valid accounts."}
+{"attack_id": "T1059", "d3fend_id": "D3-LOG-0001", "justification": "Command interpreter use can be correlated with authentication and process logs for anomaly detection."}
+{"attack_id": "T1021", "d3fend_id": "D3-NET-0001", "justification": "Network segmentation limits reachable services for lateral movement via remote protocols."}
+{"attack_id": "T1486", "d3fend_id": "D3-BACKUP-0001", "justification": "Immutable/offline backups mitigate the impact of data encryption by preserving recoverable copies."}
+{"attack_id": "T1490", "d3fend_id": "D3-BACKUP-0001", "justification": "Immutable/offline backups are resistant to attempts to delete or modify recovery points."}
+{"attack_id": "T1490", "d3fend_id": "D3-RECOVERY-0001", "justification": "Automated recovery procedures reduce recovery time after backups are used following inhibited recovery."}

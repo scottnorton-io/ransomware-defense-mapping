@@ -1,0 +1,5 @@
+# Core runtime
+
+# For now, the resolver and CLI rely only on the Python standard library.
+# Add dependencies here if you later introduce additional packages
+# (for example, for richer date parsing or structured logging).

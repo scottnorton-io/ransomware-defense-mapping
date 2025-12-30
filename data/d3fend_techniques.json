@@ -1,0 +1,32 @@
+[
+  {
+    "id": "D3-AUTH-0001",
+    "name": "Multi-Factor Authentication",
+    "category": "Hardening",
+    "description": "Require multiple factors (something you know, have, or are) to authenticate to critical systems and services."
+  },
+  {
+    "id": "D3-LOG-0001",
+    "name": "Centralized Authentication Logging",
+    "category": "Detection",
+    "description": "Collect and centralize authentication logs from endpoints and services for correlation and anomaly detection."
+  },
+  {
+    "id": "D3-NET-0001",
+    "name": "Network Segmentation and Isolation",
+    "category": "Hardening",
+    "description": "Segment networks and restrict lateral movement by limiting access between zones and critical assets."
+  },
+  {
+    "id": "D3-BACKUP-0001",
+    "name": "Immutable and Offline Backups",
+    "category": "Resilience",
+    "description": "Maintain immutable and/or offline backups that cannot be modified or deleted by compromised systems."
+  },
+  {
+    "id": "D3-RECOVERY-0001",
+    "name": "Automated Recovery Procedures",
+    "category": "Resilience",
+    "description": "Document and automate recovery procedures for critical systems to reduce recovery time after an incident."
+  }
+]

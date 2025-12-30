@@ -1,0 +1,5 @@
+{"env_id": "lab-1", "control_id": "ctrl.auth.mfa.critical-systems", "deployment_state": "partial", "last_test_time": "2025-12-29T20:00:00Z", "last_test_status": "pass"}
+{"env_id": "lab-1", "control_id": "ctrl.logging.central-auth", "deployment_state": "full", "last_test_time": "2025-12-29T21:00:00Z", "last_test_status": "pass"}
+{"env_id": "lab-1", "control_id": "ctrl.network.segmentation-core", "deployment_state": "partial", "last_test_time": "2025-12-28T18:30:00Z", "last_test_status": "fail"}
+{"env_id": "lab-1", "control_id": "ctrl.backup.immutable", "deployment_state": "full", "last_test_time": "2025-12-27T17:45:00Z", "last_test_status": "pass"}
+{"env_id": "lab-1", "control_id": "ctrl.recovery.automated", "deployment_state": "not_present", "last_test_time": null, "last_test_status": "unknown"}

@@ -1,5 +1,11 @@
 educational digram - coverage intrepration
 
+>How a single ATT&CK technique maps to:
+>- A defensive pattern (D3FEND), and
+>- A set of controls in a specific environment with varying states.
+
+
+
 ```mermaid
 flowchart TD
     T[T1486: Data Encrypted for Impact]

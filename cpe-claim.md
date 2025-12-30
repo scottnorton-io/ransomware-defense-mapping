@@ -27,7 +27,7 @@ Description of activity:
 
 Artifacts / evidence:
   - Public GitHub repository: https://github.com/scottnorton-io/ransomware-defense-mapping
-  - Article / whitepaper: <ARTICLE_URL>
+  - Article / whitepaper: https://github.com/scottnorton-io/ransomware-defense-mapping/docs/article.md
   - Example CLI output and diagrams: see repository README and `examples/example_chain.md`.
 
 Relevance to certification domain:

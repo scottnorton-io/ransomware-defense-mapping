@@ -1,0 +1,37 @@
+[
+  {
+    "id": "T1078",
+    "name": "Valid Accounts",
+    "tactic": "Initial Access",
+    "description": "Adversaries may obtain and abuse credentials of existing accounts to gain access to resources.",
+    "ransomware_relevance": true
+  },
+  {
+    "id": "T1059",
+    "name": "Command and Scripting Interpreter",
+    "tactic": "Execution",
+    "description": "Adversaries may abuse command-line interpreters and scripting languages to execute arbitrary commands.",
+    "ransomware_relevance": true
+  },
+  {
+    "id": "T1021",
+    "name": "Remote Services",
+    "tactic": "Lateral Movement",
+    "description": "Adversaries may use remote services such as RDP, SMB, or SSH to move laterally within an environment.",
+    "ransomware_relevance": true
+  },
+  {
+    "id": "T1486",
+    "name": "Data Encrypted for Impact",
+    "tactic": "Impact",
+    "description": "Adversaries may encrypt data on targeted systems to disrupt availability or to support extortion.",
+    "ransomware_relevance": true
+  },
+  {
+    "id": "T1490",
+    "name": "Inhibit System Recovery",
+    "tactic": "Impact",
+    "description": "Adversaries may delete or modify backups and recovery mechanisms to make recovery more difficult.",
+    "ransomware_relevance": true
+  }
+]

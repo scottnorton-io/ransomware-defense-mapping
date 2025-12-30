@@ -1,0 +1,5 @@
+{"id": "ctrl.auth.mfa.critical-systems", "name": "MFA for critical systems", "category": "identity", "scenario_id": "scn.auth.mfa.critical-systems.check", "evidence_schema_ref": "schemas/auth_mfa_critical_systems.json"}
+{"id": "ctrl.logging.central-auth", "name": "Centralized authentication logging", "category": "logging", "scenario_id": "scn.logging.central-auth.check", "evidence_schema_ref": "schemas/logging_central_auth.json"}
+{"id": "ctrl.network.segmentation-core", "name": "Core network segmentation controls", "category": "network", "scenario_id": "scn.network.segmentation.core.check", "evidence_schema_ref": "schemas/network_segmentation_core.json"}
+{"id": "ctrl.backup.immutable", "name": "Immutable backup storage", "category": "backup", "scenario_id": "scn.backup.immutable.check", "evidence_schema_ref": "schemas/backup_immutable.json"}
+{"id": "ctrl.recovery.automated", "name": "Automated recovery runbooks", "category": "recovery", "scenario_id": "scn.recovery.automated.check", "evidence_schema_ref": "schemas/recovery_automated.json"}

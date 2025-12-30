@@ -187,12 +187,12 @@ ransomware-defense-mapping/
 │  └─ env_controls.example.jsonl
 ├─ src/
 │  ├─ **init**.py
-│  ├─ [model.py](http://model.py)
-│  ├─ [resolver.py](http://resolver.py)
-│  └─ [cli.py](http://cli.py)
+│  ├─ model.py
+│  ├─ resolver.py
+│  └─ cli.py
 ├─ examples/
-│  └─ example_[chain.md](http://chain.md)
-├─ [README.md](http://README.md)
+│  └─ example_chain.md
+├─ README.md
 └─ LICENSE
 ```
 
